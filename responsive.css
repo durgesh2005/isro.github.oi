@@ -1,0 +1,167 @@
+@media screen and (max-width:600px) {
+    nav {
+        margin:0px;
+        padding:0px;
+    }
+
+    nav a {
+        margin:0px 0px 0px 10px;
+        padding: 10px 5px;
+        border: none;
+        float: right;
+    }
+     nav a:hover {
+         background: none;
+     }
+     nav a:visited {
+         color:white;
+     }
+    .content {
+        width: 100%;
+    }
+
+    nav li {
+        display: none;
+    }
+
+    #menu ul {
+        padding: 20px 30px;
+    }
+
+    #menu a:hover {
+        background: none;
+        color:white;
+    }
+    #menu a {
+        display: block;
+        width: 100%;
+    }
+     
+    .content h1 {
+        text-align: center;
+    }
+
+
+    li #close {
+        padding: 0px;
+        box-sizing: border-box;
+        font-size: 30px;
+        border: none;
+        opacity: 1;
+        cursor: pointer;
+    }
+
+    .content p {
+        text-align: justify;
+    }
+
+    nav button {
+        display: block;
+        margin: 0px 0px 0px 80px;
+        border-radius: 2px;
+    }
+
+    .content button {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+    nav button:hover {
+        cursor: pointer;
+    }
+    .text {
+        display: inline-block;
+        margin-top: 40px;
+    }
+
+    .text img {
+        width: 100%;
+        display: none;
+    }
+    .news {
+        padding:0px;
+        
+    }
+    .news h1 {
+        padding:10px 0px;
+        width: 30%;
+    }
+   .news img {
+       width:85%;
+       margin-top: 20px;
+       border-radius:5px;
+       padding:2px;
+       height:200px;
+   }
+   .container {
+       width: 20%;
+   }
+   .container .contain {
+       width: 100%;
+       font-size: 12px;
+       height: 80px;
+       opacity: 1;
+   }
+   .work {
+    padding:0px 20px;
+       text-align: center;
+       width: 100%;
+   }
+   .work img {
+    border-radius:10px;
+       width: 100%;
+       padding:0px 0px 50px;
+   }
+   .work-content {
+       width: 100%;
+       text-align: center;
+    text-align: justify;
+       padding:10px 20px;
+   }
+   
+   .work2 {
+       text-align: center;
+       width: 100%;
+       padding:0px 20px;
+   }
+   .work2 img {
+    border-radius:10px;
+    padding:0px 0px 50px;
+       width: 100%;
+   }
+   .work2 .work-content {
+       width: 100%;
+       padding:10px;
+   }
+   .mission h1 {
+       width: 50%;
+   }
+   .mission {
+    color: white;
+    margin-top: 50px;
+    width: 100%;
+    background-position: 10% 100%;
+    display: inline-block;
+    background-image: url('mars-512489_640.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+}
+
+.mission-content {
+    width: 100%;
+    padding:20px;
+}
+.mission-content p {
+    font-size: 20px;
+    width: 100%;
+    float: right;
+}
+.mission-content img {
+    width: 50%;
+    float: left;
+    padding:5px;
+    height: 150px;
+}
+
+}
